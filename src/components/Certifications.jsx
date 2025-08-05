@@ -16,9 +16,9 @@ export default function Certifications() {
           { title: "People and Soft Skills for Professional and Personal Success", platform: "Coursera", link: "https://coursera.org/share/a6e255980285e44ebc1061bdc93c8e4a" },
         ].map((cert, index) => (
           <a key={index} href={cert.link} target="_blank" rel="noopener noreferrer" className="h-full">
-            <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-900 p-4 rounded-xl shadow transform transition duration-300 hover:rotate-[2deg] hover:shadow-lg">
+            <div className="flex flex-col justify-between h-full bg-gray-900 p-4 rounded-xl shadow transform transition duration-300 hover:rotate-[2deg] hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-2">{cert.title}</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">{cert.platform}</p>
+              <p className="text-sm text-gray-400">{cert.platform}</p>
             </div>
           </a>
           // <div key={index} className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow">

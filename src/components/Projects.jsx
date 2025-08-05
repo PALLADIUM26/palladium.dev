@@ -38,10 +38,10 @@ const projects = [
           <h2 className="text-3xl font-bold mb-8">Projects</h2>
           <div className="grid md:grid-cols-2 gap-6 ">
             {projects.map((proj, i) => (
-              <div key={i} className="bg-white dark:bg-gray-900 shadow-md rounded-2xl p-6 shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-l-4 hover:border-purple-500">
+              <div key={i} className="bg-gray-900 shadow-md rounded-2xl p-6 shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:border-l-4 hover:border-purple-500">
                 <h3 className="text-xl font-semibold mb-2">{proj.title}</h3>
                 <p className="mb-3">{proj.description}</p>
-                <a href={proj.link} target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-400 underline">
+                <a href={proj.link} target="_blank" rel="noreferrer" className="text-blue-400 underline">
                   View on GitHub →
                 </a>
               </div>

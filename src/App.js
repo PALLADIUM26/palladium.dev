@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Typewriter } from 'react-simple-typewriter';
+// import { Typewriter } from 'react-simple-typewriter';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About';

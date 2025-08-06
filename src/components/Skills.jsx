@@ -7,14 +7,13 @@ const skills = [
   '🍃 MongoDB',
   '🌶 Flask',
   '🕸 Django',
-  '🔧 Git',
-  '🎨 TailwindCSS'
+  '🔧 Git'
 ];
 
 export default function Skills() {
   return (
     // <section id="skills" className="py-20 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100" data-aos="fade-up">
-    <section id="skills" className="py-20 bg-gradient-to-b from-black via-gray-900 to-gray-800 text-gray-100" data-aos="fade-up">
+    <section id="skills" className="py-20 bg-gradient-to-b from-gray-900 via-gray-950 to-gray-900 text-gray-100" data-aos="fade-up">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
         <div className="flex flex-wrap justify-center gap-4">

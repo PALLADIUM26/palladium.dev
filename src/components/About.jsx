@@ -2,7 +2,7 @@ export default function About() {
     return (
       // <section id="about" className="py-20 bg-white dark:bg-gray-950 text-gray-800 dark:text-gray-100" data-aos="fade-up">
       // <section id="about" className="py-20 bg-gray-950 text-gray-100" data-aos="fade-up">
-      <section id="about" className="py-20 bg-gradient-to-b from-gray-800 via-gray-900 to-black text-gray-100" data-aos="fade-up">
+      <section id="about" className="py-20 bg-gradient-to-b from-gray-900 via-gray-900 to-gray-900 text-gray-100">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
           {/* <p className="text-lg">

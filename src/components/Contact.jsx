@@ -110,7 +110,8 @@ export default function Contact() {
           rotateY: -5,
           transition: { type: 'spring', stiffness: 100 },
         }}
-        className="relative backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full mx-6 flex flex-col md:flex-row items-center gap-10 hover:shadow-indigo-700"
+        className="card-glassy backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full mx-6 flex flex-col md:flex-row items-center gap-10 hover:shadow-indigo-700"
+        // className="relative backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full mx-6 flex flex-col md:flex-row items-center gap-10 hover:shadow-indigo-700"
       >
         {/* Profile Image */}
         <motion.img

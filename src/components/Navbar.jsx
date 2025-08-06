@@ -9,6 +9,7 @@ export default function Navbar() {
   const navLinks = (
     <>
       <li><a onClick={() => setMenuOpen(false)} href="#about" className="mx-2 hover:text-blue-400 transition hover:underline">About</a></li>
+      <li><a onClick={() => setMenuOpen(false)} href="#skills" className="mx-2 hover:text-blue-400 transition hover:underline">Skills</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#projects" className="mx-2 hover:text-blue-400 transition hover:underline">Projects</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#contact" className="mx-2 hover:text-blue-400 transition hover:underline">Contact</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#certifications" className="mx-2 hover:text-blue-400 transition hover:underline">Certifications</a></li>

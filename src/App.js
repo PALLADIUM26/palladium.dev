@@ -11,6 +11,11 @@ import Contact from './components/Contact';
 import Certifications from './components/Certifications';
 import Education from './components/Education';
 import Achievements from './components/Achievements';
+import Gallery from './components/Gallery';
+import Interests from './components/Interests';
+// import Writeups from './components/Writeups';
+import MiniProjects from './components/MiniProjects';
+import NowExploring from './components/NowExploring';
 import Footer from './components/Footer';
 
 function App() {
@@ -73,9 +78,14 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <MiniProjects />
       <Certifications />
       <Achievements />
       <Education />
+      {/* <Writeups /> */}
+      <NowExploring />
+      <Gallery />
+      <Interests />
       <Footer />
     </div>
   )}

@@ -4,7 +4,7 @@ export default function About() {
       // <section id="about" className="py-20 bg-gray-950 text-gray-100" data-aos="fade-up">
       <section id="about" className="py-20 bg-gradient-to-b from-gray-900 via-gray-900 to-gray-900 text-gray-100">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6">About Me</h2>
+          <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
           {/* <p className="text-lg">
             Final-year B. Tech CSE student with a growing interest in software development, competitive programming, and the dynamic field of AI/ML. Experienced as a backend developer in collaborative team projects, and actively involved in college technical clubs - fueling my drive to learn, build, and innovate.  I love building projects that solve real problems and learning new tech along the way.
           </p> */}

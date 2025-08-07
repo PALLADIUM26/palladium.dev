@@ -4,7 +4,7 @@ export default function Certifications() {
   return (
 
     // <section id="certifications" className="py-16 px-6 bg-gray-100 dark:bg-gray-800" data-aos="fade-up">
-    <section id="certifications" className="py-16 px-6 bg-gradient-to-b from-gray-600 via-gray-700 to-gray-700" data-aos="fade-up">
+    <section id="certifications" className="py-16 px-6 bg-gradient-to-b from-gray-800 via-gray-800 to-gray-800" data-aos="fade-up">
       <h2 className="text-3xl font-bold text-center mb-8">Certifications</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {[
@@ -16,7 +16,7 @@ export default function Certifications() {
           { title: "People and Soft Skills for Professional and Personal Success", platform: "Coursera", link: "https://coursera.org/share/a6e255980285e44ebc1061bdc93c8e4a" },
         ].map((cert, index) => (
           <a key={index} href={cert.link} target="_blank" rel="noopener noreferrer" className="h-full">
-            <div className="flex flex-col justify-between h-full bg-gray-800 p-4 rounded-xl shadow transform transition duration-300 hover:rotate-[2deg] hover:shadow-lg">
+            <div className="flex flex-col justify-between h-full bg-gray-600 p-4 rounded-xl shadow transform transition duration-300 hover:rotate-[2deg] hover:shadow-lg">
               <h3 className="text-lg font-semibold mb-2">{cert.title}</h3>
               <p className="text-sm text-gray-400">{cert.platform}</p>
             </div>

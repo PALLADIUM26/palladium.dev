@@ -12,9 +12,13 @@ export default function Navbar() {
       <li><a onClick={() => setMenuOpen(false)} href="#skills" className="mx-2 hover:text-blue-400 transition hover:underline">Skills</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#projects" className="mx-2 hover:text-blue-400 transition hover:underline">Projects</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#contact" className="mx-2 hover:text-blue-400 transition hover:underline">Contact</a></li>
+      <li><a onClick={() => setMenuOpen(false)} href="#mini-projects" className="mx-2 hover:text-blue-400 transition hover:underline">MiniProjects</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#certifications" className="mx-2 hover:text-blue-400 transition hover:underline">Certifications</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#achievements" className="mx-2 hover:text-blue-400 transition hover:underline">Achievements</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#education" className="mx-2 hover:text-blue-400 transition hover:underline">Education</a></li>
+      <li><a onClick={() => setMenuOpen(false)} href="#now-exploring" className="mx-2 hover:text-blue-400 transition hover:underline">Now Exploring</a></li>
+      <li><a onClick={() => setMenuOpen(false)} href="#gallery" className="mx-2 hover:text-blue-400 transition hover:underline">Gallery</a></li>
+      <li><a onClick={() => setMenuOpen(false)} href="#interests" className="mx-2 hover:text-blue-400 transition hover:underline">Interests</a></li>
     </>
   )
   // ="md:hidden text-xl cursor-pointer" onClick={toggleMenu}>

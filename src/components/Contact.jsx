@@ -96,6 +96,7 @@ export default function Contact() {
     <section
       id="contact"
       className="py-20 bg-gradient-to-b from-gray-800 via-gray-500 to-gray-600 text-gray-100 flex flex-col items-center"
+      data-aos="fade-up"
     >
       {/* Section Heading */}
       <h2 className="text-3xl font-bold text-white mb-10">
@@ -110,8 +111,8 @@ export default function Contact() {
           rotateY: -5,
           transition: { type: 'spring', stiffness: 100 },
         }}
-        className="card-glassy backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full mx-6 flex flex-col md:flex-row items-center gap-10 hover:shadow-indigo-700"
-        // className="relative backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full mx-6 flex flex-col md:flex-row items-center gap-10 hover:shadow-indigo-700"
+        className="card-glassy backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-6 sm:p-10 w-[90%] sm:w-full max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 hover:shadow-indigo-700"
+        // className="card-glassy backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full mx-6 flex flex-col md:flex-row items-center gap-10 hover:shadow-indigo-700"
       >
         {/* Profile Image */}
         <motion.img

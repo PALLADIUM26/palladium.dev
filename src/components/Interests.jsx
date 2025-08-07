@@ -23,7 +23,7 @@ import React from 'react';
 
 export default function Interests() {
   return (
-    <section id="interests" className="py-16 px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 text-white">
+    <section id="interests" className="py-16 px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 text-white" data-aos="fade-up">
       <h2 className="text-3xl font-bold mb-8 text-center">Life Outside Code</h2>
       <div className="max-w-3xl mx-auto text-lg leading-relaxed">
         <p className="mb-4">

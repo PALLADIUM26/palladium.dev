@@ -30,7 +30,7 @@ export default function MiniProjects() {
       <h2 className="text-3xl font-bold mb-8 text-center">Mini Projects</h2>
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         {projects.map((proj, index) => (
-          <div key={index} className="bg-gray-900 rounded-lg p-6 shadow-md">
+          <div key={index} className="bg-gray-900 rounded-xl p-6 shadow-md">
             <h3 className="text-xl font-semibold">{proj.name}</h3>
             <p className="text-sm text-gray-200">{proj.desc}</p>
             <p className="text-sm text-gray-200 mt-2">Built with: {proj.tools.join(', ')}</p>

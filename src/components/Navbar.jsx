@@ -19,6 +19,7 @@ export default function Navbar() {
       <li><a onClick={() => setMenuOpen(false)} href="#now-exploring" className="mx-2 hover:text-blue-400 transition hover:underline">Now Exploring</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#gallery" className="mx-2 hover:text-blue-400 transition hover:underline">Gallery</a></li>
       <li><a onClick={() => setMenuOpen(false)} href="#interests" className="mx-2 hover:text-blue-400 transition hover:underline">Interests</a></li>
+      <li><a onClick={() => setMenuOpen(false)} href="http://palladium-batcave.netlify.app" className="mx-2 hover:text-blue-400 transition hover:underline">Enter BatMode</a></li>
     </>
   )
   // ="md:hidden text-xl cursor-pointer" onClick={toggleMenu}>
